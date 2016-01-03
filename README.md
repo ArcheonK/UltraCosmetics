@@ -15,4 +15,4 @@ Register it in Core with gadgetList/petList/etc.add(new YourClass(null));
 
 Done!
 
-Created my iSach on Spigot, undergoing changes by Archeon.
+Created by iSach on Spigot, undergoing changes by Archeon.
