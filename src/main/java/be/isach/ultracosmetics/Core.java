@@ -91,7 +91,7 @@ public class Core extends JavaPlugin {
     @Override
     public void onEnable() {
         if (!getServer().getVersion().contains("1.8.8")) {
-            System.out.println("----------------------------\n\nUltraCosmetics requires Spigot 1.8.8 to work!\n\n----------------------------");
+            System.out.println("----------------------------\n\nCosmetics require Spigot 1.8.8 to work!\n\n----------------------------");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
@@ -223,7 +223,7 @@ public class Core extends JavaPlugin {
                 if (outdated) {
                     for (Player p : Bukkit.getOnlinePlayers()) {
                         if (p.isOp())
-                            p.sendMessage("§l§oUltraCosmetics > §c§lAn update is available: " + lastVersion);
+                            p.sendMessage("§l§oCosmetics > §c§lAn update is available: " + lastVersion);
                     }
                 }
             }
